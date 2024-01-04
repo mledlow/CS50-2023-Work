@@ -1,0 +1,37 @@
+title {
+    text-align: center;
+    color: white;
+}
+
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 1vw;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+pre {
+    font-size: 1vw;
+}
+
+h2 {
+    font-size: 2vw;
+}
+
+p {
+    font-size: 1vw;
+}
+
+img {
+    width : 460px;
+    height : 215px;
+    border-color : white;
+    border-style : solid;
+}

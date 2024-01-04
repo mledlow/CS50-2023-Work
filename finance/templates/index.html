@@ -1,0 +1,65 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+<table class="table" border-collapse="collapse">
+    <thead>
+        <tr>
+            <th>
+                Stock
+            </th>
+            <th>
+                Shares
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+                Value
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>
+
+            </th>
+            <th>
+
+            </th>
+            <th>
+                Cash
+            </th>
+            <th>
+                {{ cash }}
+            </th>
+        </tr>
+        {% for cell in table %}
+        <tr>
+            <th>{{ cell['symbol'] }}</th>
+            <th>{{ cell['shares'] }}</th>
+            <th>{{ cell['price'] }}</th>
+            <th>{{ cell['value'] }}</th>
+        </tr>
+        {% endfor %}
+        <tr>
+            <th>
+
+            </th>
+            <th>
+
+            </th>
+            <th>
+                TOTAL
+            </th>
+            <th>
+                {{ total }}
+            </th>
+        </tr>
+    </tbody>
+</table>
+
+{% endblock %}
