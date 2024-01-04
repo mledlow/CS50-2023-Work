@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: Bubble sort has some of the higher dropoff in time when going from sorted to unsorted, and it was the slowest in lecture.
+
+sort2 uses: merge sort
+
+How do you know?: All the times are pretty close to each other and fairly low, and merge sort is the most efficient of them.
+
+sort3 uses: selection sort
+
+How do you know?: idk it's the third one

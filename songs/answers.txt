@@ -1,0 +1,7 @@
+I would probably consider their audio aura to be focused on danceability and energy,
+with valence as slightly below average.
+
+The issue with this calculation could be that it doesn't account for the person's
+amount of listening; for example, the top song could be listened to 5000 times with
+the remaining 99 songs being much lower, but this wouldn't reflect that.
+I would give weight to how much a song is listened to relative to others, as well.
